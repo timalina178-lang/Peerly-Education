@@ -103,7 +103,10 @@
 
     <section class="credibility" aria-label="Peerly Education experience">
       <div class="credibility-inner">
-        <p class="stat"><strong>350+</strong><span>combined tutoring hours</span></p>
+        <div class="stat-group">
+          <p class="stat"><strong>350+</strong><span>combined tutoring hours</span></p>
+          <p class="stat stat-secondary"><strong>10+</strong><span>current student tutors</span></p>
+        </div>
         <div class="credibility-details">
           <p class="school-note">Student tutors from <strong>Trinity Grammar School Kew</strong> and <strong>Melbourne High School</strong></p>
           <p class="location-note" data-service-area>Based in Boroondara and Mount Waverley</p>
@@ -120,16 +123,25 @@
         </div>
       </div>
       <div class="testimonial-layout">
-        <figure class="testimonial-featured">
-          <blockquote>My son rates Tim 100/100.</blockquote>
-          <figcaption>Year 3 parent</figcaption>
-        </figure>
-        <div class="testimonial-pair">
-          <figure>
+        <div class="feedback-visual" aria-hidden="true">
+          <div class="feedback-ring"></div>
+          <div class="feedback-centre">Peerly</div>
+          <div class="feedback-node feedback-parent">Parent</div>
+          <div class="feedback-node feedback-student">Student</div>
+          <div class="feedback-node feedback-tutor">Tutor</div>
+          <span class="feedback-spark feedback-spark-one"></span>
+          <span class="feedback-spark feedback-spark-two"></span>
+        </div>
+        <div class="testimonial-notes">
+          <figure class="testimonial-note testimonial-note-featured">
+            <blockquote>My son rates Tim 100/100.</blockquote>
+            <figcaption>Year 3 parent</figcaption>
+          </figure>
+          <figure class="testimonial-note">
             <blockquote>My son's teachers have said that he's improved a lot.</blockquote>
             <figcaption>Year 2 parent</figcaption>
           </figure>
-          <figure>
+          <figure class="testimonial-note testimonial-note-coral">
             <blockquote>His lessons are creative, engaging, fun, and thoughtfully designed to build both skill and confidence.</blockquote>
             <figcaption>Year 4 parent</figcaption>
           </figure>
@@ -191,9 +203,13 @@
           <div class="person-mark" aria-hidden="true">E</div>
           <div><p class="person-role">Tutor</p><h3>Ethan</h3><p>Student at Melbourne High School.</p></div>
         </article>
-        <article class="person person-placeholder">
-          <div class="person-mark" aria-hidden="true">+</div>
-          <div><p class="person-role">Growing team</p><h3>More tutors</h3><p>Additional tutor profiles can be added here as the team grows.</p></div>
+        <article class="person">
+          <div class="person-mark" aria-hidden="true">T</div>
+          <div><p class="person-role">Tutor</p><h3>Thomas</h3><p>Student at Trinity Grammar School Kew.</p></div>
+        </article>
+        <article class="person">
+          <div class="person-mark" aria-hidden="true">J</div>
+          <div><p class="person-role">Tutor</p><h3>Josh</h3><p>Student at Trinity Grammar School Kew.</p></div>
         </article>
       </div>
     </section>
@@ -228,9 +244,9 @@
       <div class="trial-inner">
         <p class="eyebrow">Your first lesson is free</p>
         <h2>Ready to make learning fun?</h2>
-        <p>Tell us a little about what your child needs. We’ll get in touch to arrange a suitable tutor and time.</p>
-        <a class="button button-dark" id="booking-link" href="#booking-status" data-booking-link>Book your free trial lesson <span aria-hidden="true">→</span></a>
-        <p class="booking-status" id="booking-status" role="status" data-booking-status>Booking link awaiting configuration. Please contact Peerly once contact details are published.</p>
+        <p>Send us a message with the year level, subject and anything your child would like help with. We’ll reply to arrange a suitable tutor and time.</p>
+        <a class="button button-dark" id="booking-link" href="sms:+61403783818" data-booking-link>Message us to book a free trial <span aria-hidden="true">→</span></a>
+        <p class="booking-status">This opens your phone’s messaging app. You can also email <a href="mailto:peerlyeducation@gmail.com">peerlyeducation@gmail.com</a>.</p>
       </div>
     </section>
   </main>
