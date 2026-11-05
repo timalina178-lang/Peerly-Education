@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fffaf0"/>
+  <path d="M0 510h1200v120H0z" fill="#102e49"/>
+  <circle cx="1020" cy="130" r="58" fill="#ffd64f"/>
+  <circle cx="1080" cy="230" r="22" fill="#ff6b61"/>
+  <path d="M1020 188c70 45 70 88 60 120" fill="none" stroke="#3968e8" stroke-width="9"/>
+  <text x="86" y="122" fill="#3968e8" font-family="Arial,sans-serif" font-size="24" letter-spacing="5">PEERLY EDUCATION</text>
+  <text x="82" y="260" fill="#102e49" font-family="Arial,sans-serif" font-weight="700" font-size="92">Tutoring that kids</text>
+  <rect x="75" y="290" width="760" height="118" rx="24" fill="#ffd64f"/>
+  <text x="105" y="375" fill="#102e49" font-family="Arial,sans-serif" font-weight="700" font-size="92">actually enjoy.</text>
+  <text x="86" y="563" fill="#fffaf0" font-family="Arial,sans-serif" font-size="28">Tutoring by students, for students.</text>
+</svg>
