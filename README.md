@@ -12,20 +12,11 @@ python -m http.server 8000
 
 Open `http://localhost:8000/`.
 
-## Configure before publishing
+## Contact configuration
 
-Open `config.js` and add:
+The public phone number, email address and Boroondara and Mount Waverley service area are set in `config.js`. The free-trial button opens a text message to the configured phone number. The page also gives parents the option to email Peerly Education.
 
-- the published Google Forms URL;
-- a public contact email, if one will be used.
-
-The public phone number and the Boroondara and Mount Waverley service area are already set in `config.js`.
-
-The booking button accepts a URL beginning with `https://docs.google.com/forms/`. Until one is supplied, the button is visibly disabled and explains that configuration is pending.
-
-The Google Form should ask for the parent or guardian's name, email, phone number, child's year level, tutoring subject, online or in-person preference, and optional additional information. Do not request the child's full name.
-
-Complete the owner details in `privacy.html` before publication.
+Enquiries should not request a child's full name or sensitive personal information. The privacy page identifies Tim as responsible for enquiry information and states that enquiry records are kept for up to six months.
 
 ## Edit content and prices
 
