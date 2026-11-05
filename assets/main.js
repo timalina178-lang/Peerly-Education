@@ -1,20 +1,11 @@
 const config = window.PEERLY_CONFIG || {};
 const bookingLink = document.querySelector("[data-booking-link]");
-const bookingStatus = document.querySelector("[data-booking-status]");
 const menuButton = document.querySelector("#menu-toggle");
 const navigation = document.querySelector("#site-nav");
 
-if (bookingLink && bookingStatus) {
-  if (/^https:\/\/docs\.google\.com\/forms\//.test(config.googleFormUrl || "")) {
-    bookingLink.href = config.googleFormUrl;
-    bookingLink.target = "_blank";
-    bookingLink.rel = "noopener noreferrer";
-    bookingStatus.textContent = "The enquiry form opens in a new tab.";
-  } else {
-    bookingLink.setAttribute("aria-disabled", "true");
-    bookingLink.addEventListener("click", (event) => event.preventDefault());
-    bookingStatus.textContent = "Booking link awaiting configuration. Please contact Peerly once contact details are published.";
-  }
+if (bookingLink && config.contactPhone) {
+  const messageNumber = config.contactPhone.replace(/[^+\d]/g, "").replace(/^0/, "+61");
+  bookingLink.href = `sms:${messageNumber}`;
 }
 
 if (menuButton && navigation) {
